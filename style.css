@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    display: grid;
+    padding-left: 450px;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 200px);
+    margin-top: 100px;
+    grid-template-rows: repeat(6, 50px);
+
+}
+.item{
+    border-radius: 10px;
+    color: white;
+}
+.item__1{
+    background-color: orange;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item__2{
+    background-color: rgb(146, 99, 11);
+    grid-row: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item__3{
+    background-color: red;
+    grid-column: 2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item__4{
+   background-color: blueviolet;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item__5{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item__6{
+    background-color: orange;
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*   !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! end !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1111 */
+
+.parent__1{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    margin-bottom: 100px;
+    margin-left: 550px;
+    gap: 20px;
+}
+.item__11{
+    border-radius: 10px;
+    background-color: blue;
+}
+.item__111{
+    grid-column: 1/5;
+}
+.item__222{
+    background-color: red;
+    grid-column: 1/4;
+    grid-row: 2/4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item__777{
+    grid-column: 3/5;
+    background-color: blueviolet;
+}
+.item__333, .item__444{
+    background-color: gold;
+}
+.item__555{
+    background-color: green;
+}
+.item__666{
+    background-color: aqua;
+}
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ end @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@22 */
+.parent__2{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 100px 100px 100px 100px;
+    margin-left: 550px;
+    margin-bottom: 200px;
+    grid-gap: 20px;
+}
+.child{
+    border-radius: 10px;
+    background-color: rgba(178, 34, 34, 0.611);
+}
+.child__1{
+    grid-row: 1/5;
+}
+.child__2{
+    grid-column: 2/5;
+}
+.child__3, .child__4{
+    grid-row: 2/4;
+}
+.child__7{
+    grid-column: 2/5;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child__1{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
